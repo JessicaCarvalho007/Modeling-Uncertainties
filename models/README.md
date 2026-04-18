@@ -62,3 +62,25 @@ subprocess.run(
     check=True
 )
 ```
+
+## To import Helper scripts
+
+words
+
+```text
+from gw_uncertainty.paths import PROJECT_ROOT, MODELS_DIR
+
+print(PROJECT_ROOT)
+print(MODELS_DIR)
+```
+
+**Example Import:**
+```text
+src/gw_uncertainty/modflow/wells.py
+src/gw_uncertainty/pest/invert.py
+src/gw_uncertainty/pycap_tools/depletion.py
+
+from gw_uncertainty.modflow.wells import ...
+from gw_uncertainty.pest.invert import ...
+from gw_uncertainty.pycap_tools.depletion import ...
+```
