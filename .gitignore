@@ -8,7 +8,7 @@ __pycache__/
 venv/
 env/
 ENV/
-gw_uncertainty/
+/gw_uncertainty/
 
 # Conda
 .conda/
