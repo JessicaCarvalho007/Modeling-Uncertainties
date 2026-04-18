@@ -1,0 +1,44 @@
+name: gw_uncertainty
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+
+  # Jupyter / notebooks
+  - ipython
+  - jupyterlab
+  - notebook
+  - ipykernel
+
+  # Core scientific Python
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - openpyxl
+
+  # Groundwater modeling and uncertainty analysis
+  - flopy
+  - pyemu
+  - pycap-dss
+
+  # Utilities
+  - pyyaml
+  - requests
+  - tqdm
+  - pooch
+
+  # Geospatial support
+  - geopandas
+  - shapely
+  - pyproj
+  - pyogrio
+  - fiona
+  - rasterio
+  - gdal
+  - rasterstats
+  - rtree
+
+  # Testing / reproducibility checks
+  - pytest
