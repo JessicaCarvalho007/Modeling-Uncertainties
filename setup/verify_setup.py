@@ -3,7 +3,7 @@
 Run from the repository root after activating the environment:
 
     conda activate gw_uncertainty
-    python scripts/verify_setup.py
+    python setup/verify_setup.py
 """
 
 from __future__ import annotations
